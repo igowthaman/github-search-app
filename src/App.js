@@ -9,10 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/github-search-app/' element={<HomePage/>} />
-        <Route path='/github-search-app/:userid' element={<UserPage/>}/>
-        <Route path='/github-search-app/:userid/:repoid' element={<RepoPage/>}/>
-        <Route path='/github-search-app/*' element={<ErrorPage/>}/>
+        <Route path='/' element={<HomePage/>} />
+        <Route path='/:userid' element={<UserPage/>}/>
+        <Route path='/:userid/:repoid' element={<RepoPage/>}/>
+        <Route path='/*' element={<ErrorPage/>}/>
       </Routes>
     </BrowserRouter>
   );
