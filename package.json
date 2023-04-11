@@ -1,7 +1,6 @@
 {
   "name": "github",
   "version": "0.1.0",
-  "homepage": "https://igowthaman.github.io/github-search-app",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",

@@ -6,7 +6,7 @@ const  connect = async(method, url)=>{
     }
     catch(error){
         return error;
-    }    
+    }
 }   
 
 export default connect;
